@@ -1,4 +1,7 @@
 use sterrenstelsel;
-UPDATE planeten set naam='Teenalp' WHERE id = 6 ;
+DELETE FROM planeten where naam='Teenalp';
+ALTER TABLE planeten;
+DELETE FROM planeten where id= 6 ;
+ALTER TABLE planeten;
 
 
